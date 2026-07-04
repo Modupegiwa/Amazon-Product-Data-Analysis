@@ -3,7 +3,7 @@
 ## Project Overview
 This project focuses on the end-to-end extraction, cleaning, and visualization of the Amazon Sales Dataset obtained from Kaggle. The dataset contains execution-ready data capturing e-commerce attributes, customer ratings, pricing metrics, and text reviews for over 1,400 products.
 
-Using a robust data pipeline consisting of PostgreSQL (pgAdmin 4) for advanced data cleaning/transformation and Power BI for dynamic reporting, this project maps consumer behavior, identifies category dominance, and evaluates the role of aggressive discounting strategies in modern e-commerce.
+Using a data pipeline consisting of PostgreSQL (pgAdmin 4) for advanced data cleaning/transformation and Power BI for dynamic reporting, this project maps consumer behavior, identifies category dominance, and evaluates the role of aggressive discounting strategies in modern e-commerce.
 
 ## Dataset Description
 The database initially consists of 16 raw fields capturing product profiles, customer identification, and granular reviews. To streamline performance and focus on business intelligence, structural changes were made to the core fields.
@@ -20,7 +20,7 @@ It consists of 1,465 unique products characterized by the following features:
 
 5. discounted_price: The finalized market selling price after markdowns.
 
-6.discount_percentage: The fractional markdown rate applied to the product.
+6. discount_percentage: The fractional markdown rate applied to the product.
 
 7. rating: The average customer satisfaction score (ranging from 0.0 to 5.0).
 
